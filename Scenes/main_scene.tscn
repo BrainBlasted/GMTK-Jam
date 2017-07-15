@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Environment/Sky/Protosky.tscn" type="PackedScene" id=1]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = false
+_sections_unfolded = [ "Pause", "Scroll" ]
+
+[node name="Sprite" parent="." instance=ExtResource( 1 )]
+
+
