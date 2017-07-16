@@ -1,9 +1,8 @@
 config_version=3
-config_version=null
-
 [application]
 
 name="GMTK-Jam"
+main_scene="res://Scenes/main_scene.tscn"
 icon="res://icon.png"
 
 [display]
