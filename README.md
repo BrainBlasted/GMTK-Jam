@@ -1,4 +1,5 @@
 A repository for my submission the 2017 GMTK Game Jam. As of now, it is in the very early prototyping stage.
+
 # The plan:
 - Create a Kid Icarus inspired game using only open source or source-available tools.
 
