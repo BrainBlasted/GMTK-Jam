@@ -1,3 +1,5 @@
+# GMTK Jam 2017
+
 A repository for my submission the 2017 GMTK Game Jam. As of now, it is in the very early prototyping stage.
 
 # The Plan:
