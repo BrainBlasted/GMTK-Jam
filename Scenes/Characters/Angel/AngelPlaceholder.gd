@@ -4,7 +4,10 @@ extends KinematicBody2D
 # var a = 2
 # var b = "textvar"
 
+func _fixed_process(delta):
+	move( Vector2(0,-1))
 func _ready():
 	# Called every time the node is added to the scene.
 	# Initialization here
+	set_fixed_process(true)
 	pass
