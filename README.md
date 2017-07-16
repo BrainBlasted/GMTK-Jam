@@ -8,6 +8,7 @@ A repository for my submission the 2017 GMTK Game Jam. As of now, it is in the v
 - Monsters
 - The "health" bar is a vigor bar, meaning all actions, like attacking and dashing are tied to it. The more vigor you have, the higher damage your attacks do. To regain vigor, you kill enemies.
 - Three levels, one arcade-like, two bosses
+	- Levels can be expanded on after jam
 
 # Building:
 - Install Godot Engine 3.0 by either building it yourself or from a pre-compiled package
