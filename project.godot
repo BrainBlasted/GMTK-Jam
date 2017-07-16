@@ -1,4 +1,6 @@
 config_version=3
+config_version=null
+
 [application]
 
 name="GMTK-Jam"
@@ -10,6 +12,9 @@ window/width=1080
 window/height=1920
 window/test_width=288
 window/test_height=512
+window/allow_hidpi=true
+stretch/mode="2d"
+stretch/aspect="keep"
 
 [memory]
 
