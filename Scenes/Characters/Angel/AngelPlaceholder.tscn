@@ -1,7 +1,13 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scenes/Characters/Angel/AngelPlaceholder.gd" type="Script" id=1]
 [ext_resource path="res://art/angelplaceholder.png" type="Texture" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 10.0
+_sections_unfolded = [ "Resource" ]
 
 [node name="KinematicBody2D" type="KinematicBody2D"]
 
@@ -11,6 +17,7 @@ collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "Pickable", "collision" ]
 
 [node name="Sprite" type="Sprite" parent="."]
 
@@ -40,5 +47,11 @@ drag_margin_bottom = 0.2
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+position = Vector2( -2.60805, -2.83005 )
+scale = Vector2( 2.02153, 2.03982 )
+shape = SubResource( 1 )
 
 
