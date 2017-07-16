@@ -4,8 +4,9 @@
 
 [node name="Sprite" type="Sprite"]
 
-scale = Vector2( 1031.96, 599.7 )
+scale = Vector2( 1.00927, 0.99581 )
 texture = ExtResource( 1 )
-_sections_unfolded = [ "Material", "Offset", "Visibility" ]
+centered = false
+_sections_unfolded = [ "Material", "Offset", "Region", "Transform", "Visibility", "Z" ]
 
 

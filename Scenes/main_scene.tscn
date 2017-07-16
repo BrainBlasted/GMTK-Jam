@@ -21,7 +21,7 @@ _sections_unfolded = [ "Pause", "Scroll" ]
 
 [node name="AngelSprite" parent="." instance=ExtResource( 2 )]
 
-position = Vector2( 523.561, 1537.85 )
+position = Vector2( 544.009, 1549.21 )
 _sections_unfolded = [ "Collision", "Offset", "Pickable", "Transform", "collision" ]
 
 
