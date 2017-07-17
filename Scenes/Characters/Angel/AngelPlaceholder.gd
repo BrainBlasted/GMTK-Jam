@@ -9,14 +9,16 @@ func _fixed_process(delta):
 	velocity.y -= delta * speed
 	var motion = delta * velocity
 	move(motion)
-	if Input.is_key_pressed(KEY_DOWN):
+	if Input.is_action_just_pressed("ui_down"):
 		_slow()
-	elif Input.is_key_pressed(KEY_UP):
+	elif Input.is_action_just_pressed("ui_up"):
 		_speedup()
-	if Input.is_key_pressed(KEY_RIGHT):
+	if Input.is_action_just_pressed("ui_right"):
 		velocity.x = dashspeed
-	elif Input.is_key_pressed(KEY_LEFT):
+	elif Input.is_action_just_pressed("ui_left"):
 		velocity.x = -dashspeed
+	else:
+		_stop()
 #	elif Input.is_key_pressed(KEY_LEFT):
 #		_dash_left()
 
@@ -25,9 +27,11 @@ func _slow():
 	speed = 50.0
 
 func _speedup():
-	# Slows the character
+	# Speeds up the character
 	speed = 300.0	
 
+func _stop():
+	velocity.x = 0
 #func _dash_left():
 #	# Left dash
 #	velocity.x -= dashspeed
@@ -39,4 +43,3 @@ func _ready():
 	# Initialization here
 	set_fixed_process(true)
 	pass
-

@@ -55,4 +55,12 @@ position = Vector2( -2.60805, -2.83005 )
 scale = Vector2( 2.02153, 2.03982 )
 shape = SubResource( 1 )
 
+[node name="Tween" type="Tween" parent="."]
+
+playback_process_mode = 1
+playback/active = false
+playback/repeat = false
+playback/speed = 1.0
+_sections_unfolded = [ "playback" ]
+
 
