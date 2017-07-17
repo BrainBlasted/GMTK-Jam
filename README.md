@@ -1,10 +1,6 @@
 # GMTK Jam 2017
 
-<<<<<<< HEAD
-A repository for my submission the 2017 GMTK Game Jam. As of now, it is in the very early prototyping stage. Unlikely to be finished in time.
-=======
 A repository for my submission the 2017 GMTK Game Jam. As of now, it is in the very early prototyping stage. Unlikely to be finished on time.
->>>>>>> 969ffb344348318d6a734e6ae82271798ca80bfa
 
 ## The Theme:
 - [Downwell's Dual Purpose Design](https://www.youtube.com/watch?v=i5C1Uj7jJCg)
